@@ -1,4 +1,4 @@
-# RGImageView-FLAnimatedImageView
+# FLAnimatedImageView+RGWrapper
 This is a wrapper for FLAnimatedImageView
 
 [FLAnimatedImage](https://github.com/Flipboard/FLAnimatedImage) is a performant animated GIF engine for iOS
