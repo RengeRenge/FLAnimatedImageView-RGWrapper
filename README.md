@@ -21,7 +21,7 @@ To add it to your app, copy the three classes
 into your Xcode project or add via [CocoaPods](http://cocoapods.org) by adding this to your Podfile:
 
 ```ruby
-pod 'RGImageView+FLAnimatedImageView'
+pod 'FLAnimatedImageView+RGWrapper'
 ```
 
 ## example
