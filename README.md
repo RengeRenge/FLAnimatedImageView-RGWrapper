@@ -16,7 +16,7 @@ To add it to your app, copy the three classes
 
 `FLAnimatedImageView.h/.m`
 
-`UIImageView+FLAnimatedImageView.h/.m`
+`FLAnimatedImageView+RGWrapper.h/.m`
 
 into your Xcode project or add via [CocoaPods](http://cocoapods.org) by adding this to your Podfile:
 
@@ -30,6 +30,7 @@ pod 'FLAnimatedImageView+RGWrapper'
 
 ```objective-c
 UIImageView *imageView = [UIImageView new];
+// this is time-consuming operation, you can call it in background thread
 UIImage *image = [UIImage rg_imageOrGifWithData:imageData];
 imageView.image = image;
 ```
